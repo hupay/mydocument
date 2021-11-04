@@ -3,3 +3,5 @@
 
 ## git
 [git相关](git/README.md)
+## linux
+[linux相关](linux/README.md)
