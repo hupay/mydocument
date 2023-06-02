@@ -181,7 +181,7 @@ docker run -d -p 83:8000 -p 84:9000 --name=portainer --restart=always -v /var/ru
 
 开放上面的84端口后
 http://10.10.10.10:84/
-设置密码wftest@271，选择本地docker。没有多集群。所以不用安装agent
+设置密码test@120，选择本地docker。没有多集群。所以不用安装agent
 
 设置私有仓库账号密码
 
@@ -285,7 +285,7 @@ services:
     #env_file:
     #  - /home/docker/grafana/config.monitoring
     environment:
-      - GF_SECURITY_ADMIN_PASSWORD=wftest@271
+      - GF_SECURITY_ADMIN_PASSWORD=test@120
       - GF_USERS_ALLOW_SIGN_UP=false
       - GF_INSTALL_PLUGINS=grafana-piechart-panel
     networks:
